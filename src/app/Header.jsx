@@ -45,13 +45,13 @@ class Header extends Component {
                         <Link to="/aircrafts">Our Aircraft</Link>
                       </li>
                       <li>
-                        <Link to="#">Safety</Link>
+                        <Link to="/safety">Safety</Link>
                       </li>
                       <li>
-                        <Link to="#">Charters</Link>
+                        <Link to="/charters">Charters</Link>
                       </li>
                       <li>
-                        <Link to="#">Contacts</Link>
+                        <Link to="/contact">Contacts</Link>
                       </li>
                     </ul>
                   </nav>

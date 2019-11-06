@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Home from "./app/inc/Home";
 import AirCrafts from "./app/inc/AirCrafts";
+import Safety from "./app/inc/Safety";
+import Charters from "./app/inc/Charters";
+import Contact from "./app/inc/Contact";
 import Header from "./app/Header";
 import Footer from "./app/Footer";
 import { Link } from "react-router-dom";
@@ -151,6 +154,9 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/aircrafts" exact component={AirCrafts} />
+            <Route path="/safety" exact component={Safety} />
+            <Route path="/charters" exact component={Charters} />
+            <Route path="/contact" exact component={Contact} />
           </Switch>
         </section>
       </div>
